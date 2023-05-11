@@ -93,7 +93,7 @@ Graph showing 2005 flight performance![](IMAGES/Perf_2005.jpg)
 - The top three Airlines that had highest number of flights to destination states were; Southwest Airlines (WN) which had 34 flights heading to california, followed by  American Airlines (AA) with 33 flights heading to Texas and then Delta Air Lines (DL) with 26 flights whose destination was Georgia (GA).
 - Southwest Airlines (WN) had the highest percentage of flights reported of about 16.1%, followed by American Airlines (AA) with 9.64% of reported flights and then Envoy Air (MQ) with 9.05% of reported flights.
 - We realise that the top five states which had the highest number of flights originating from there were California with 117 flights,Texas with 108 flights, Florida with 77 flights, Illinois (IL) with 73 flights and Georgia (GA) with 60 states
-- Month 1 had the hightest number of monthly flights with cancellation codes, A and B whereas month 4 and 5 did not have any flights with any cancellation code reported
+- Month 1 had the highest number of monthly flights with cancellation codes, A and B whereas month 4 and 5 did not have any flights with any cancellation code reported
 - The top three airlines that had flights with the highest average monthly flight time are; JetBlue Airways (B6) with about 350 minutes of flight time followed by Hawaiian Airlines (HA) with a flight time of about 300 minutes and then Continental Airlines(CO) with flight time of about 250 minutes.
 
 Graph showing 2005 airline carrier delay![](IMAGES/Delay_2005.jpg)
