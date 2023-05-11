@@ -39,8 +39,8 @@ The yearly average flight delay statistics component consists of the following f
 - I used Visual Studio code to develop the application and launch it in the web browser.
 
 ## Data sourcing
-The dataset used in this project was provided by the skills network labs. To access it click  <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv">HERE</a>  
-The sample Dataset contains information about US domestic airlines.It includes information about the airlines and the 
+The dataset used in this project was provided by the skills network labs. To download it click  <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv">HERE</a>  
+The sample dataset contains information about US domestic airlines.It includes information about the airlines and the 
 states where these airlines conduct business together with other relevant information used in this project.
 The airlines include:
 | AIRLINE           | AIRLINE_CODE |  AIRLINE          | AIRLINE_CODE                   |
