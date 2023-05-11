@@ -100,7 +100,7 @@ Graph showing 2005 airline carrier delay![](IMAGES/Delay_2005.jpg)
 ### key points from the graph above
 - SkyWest Airlines (OO) had the most average carrier delay of about 250 minutes in the seventh month
 ExpressJet (EV), American Airlines (AA) and Northwest Airlines (NW) are the major airlines that experienced weather delays in minutes in certain months of the year.
-- Alaska Airlines (AS) is the major airline that experienced a security delay in minutes reported of about close 50 minutes in month 6.
+- Alaska Airlines (AS) is the major airline that experienced a security delay in minutes reported of about 50 minutes in month 6.
 - United Airlines (UA) experienced the most average late aircraft delay time of about 350 minutes in the third month 
 - Airtran Airways(FL) experienced the second most average late aircraft delay time of about 200 minutes in month 3
 - Average late aircraft delay by most airlines is about 50 minutes
@@ -110,45 +110,57 @@ Graph showing 2010 flight performance![](IMAGES/Perf_2010.jpg)
 - The top four airlines which had the highest number of flights to destination states were American Airlines (AA) with about 35 flights to Texas, followed by SkyWest Airlines (OO) with about 26 flights to california(CA),
 then Southwest Airlines (WN) which had 25 flights to california and tied with Delta Air Lines (DL) which
 also had 25 flights to Georgia (GA).
-- We can see that top 5 states that had the highest number of flights originating from there inclluded Texas with 124 flights, followed by california with 96 flights followed by Georgia with 78 flights and Florida with 78 flights as well, followed by Illinois (IL) with 56 flights
+- We can see that top 5 states that had the highest number of flights originating from there included Texas with 124 flights, followed by california with 96 flights followed by Georgia with 78 flights and Florida with 78 flights as well, followed by Illinois (IL) with 56 flights
 - It can also be noted that month 2 and 12 experienced the most number of flights with various cancellation codes
 
 Graph showing 2010 airline carrier delay![](IMAGES/Delay_2010.jpg)
 ### key points from the graph above
-- Most average carrier delay time experienced by airlines were not more than 50 minutes on average.
+- Most average carrier delay time experienced by airlines were about 50 minutes on average.
 - Envoy Air (MQ),SkyWest Airlines (OO) and Delta Air Lines (DL) were the main airlines that experienced varying weather delays in minutes at different months
 - Envoy Air (MQ) and Continental Airlines(CO) are the airlines that majorly also experienced NAS delay time in minutes.
 - There were no flights that experienced dalays related to security matters that were reported.
 - Airlines such as Endeavor Air(9E),Southwest Airlines (WN) and American Airlines (AA) are the airlines whose flights experienced the most average aircraft delays, with Endeavor Air(9E) experiencing the highest delays of upto 120 minutes followed by Southwest Airlines (WN) and then American Airlines (AA) with least delays.
 
-### Cluster building
-To perform clustering, we had to preprocess the data using principle component analysis algorithm to produce two principle componets as our dimensions to be used in the clustering process.These were used to generate the clusters as seen in the image above. Further anlysis was performed to find the ideal number of clusters to be used in our data.We considered the ideal number of clusters to be used as 3 that can be seen in the graph above.
+Graph showing 2019 flight performance![](IMAGES/Perf_2019.jpg)
+### key points from the graph above
+- The Top 3  airlines with the most number of flights  to destination states were Delta Air Lines (DL) with 50 flights to Georgia (GA),then followed Southwest Airlines (WN) with 39 flights to california and then American Airlines (AA) with 28 flights to Texas. 
+- 50% of the flights reported were from American Airlines (AA), Delta Air Lines (DL),SkyWest Airlines (OO) and Allegiant Air (G4) shared a percentage of 16.7% of reported flights
+- We can see that top 4 states that had the highest number of flights originating from there were California with 116 flights,followed by Texas with 96 flights,followed by Florida (FL) with 87 flights and then Illinois (IL)  which had 63 flights.
+- Flight Cancellation codes were spread out to about 2 flights on average.
+- We can see a general monthly flight time of airlines to be about 150 minutes on average across various months
 
-Graph showing cluster analysis with data![](IMAGES/clusterstat.jpg)
-Having performed some statistics on the generated clusters, we can draw the following conclusions
-1. Cluster 1 has the highest average income of about 13k and average age of 46 years.This can be considerd as a high value target cluster for banking products such as loans and savings.
-2. Cluster 2 has the least average income of about 9.4k and has the least average age of 29 years. This can be a target cluster for bank products such as mortgage and credit card
-3. Cluster 0 has a moderate average income of about 9.7k and has the higest average age of 84 years. This can be a target cluster for bank products such as pension
+Graph showing 2019 airline carrier delay![](IMAGES/Delay_2019.jpg)
+### key points from the graph above
+- Envoy Air (MQ) had the highest carrier delay of about 145 minutes in september and American SkyWest Airlines (OO) had a carrier delay of about 98 minutes in month 2
+- Carrier delay by airlines is about 50 minutes on average
+- Delays due to weather are about 25 minutes on average.
+- Delays to due security are generally negligible among airlines on average.
+- Late aircraft delays by airlines are about 50 minutes on average.
 
+Graph showing 2020 flight performance![](IMAGES/Perf_2020.jpg)
+### key points from the graph above
+- The top 3 airlines with the most number of flights  to destination states were American Airlines (AA) with 12 flights to Texas, followed by the same airline with 7 flights to florida,then Southwest Airlines (WN) with 6 flights to california.
+- We can see that top 4 states that had the highest number of flights originating from there were Texas with 20 flights,followed by california with 19 flights,then followed by Georgia (GA) and North Carolina (NC) which tied with 18 flights.
+- We can see an increase in a number of flights with cancellaton codes with Month 3 having the most cancellation codes for a number of flights.
+- Hawaiian Airlines (HA) had the highest average monthly flight time in minutes of about 350 minutes in month 2 whereas other airlines had an average of about 150 monthly flight time in minutes
 
-## Final model buiding and evaluation
-Model performance graph![](IMAGES/modal_image1.png)
-
-A range of models were trained on the data and their performance assessed as seen in the bar graph above.
-The gradient boosting classifier and the Random forest model were the best performing classifers.
-Further analysis was performed to know which of them was the better model.The Random forest emerged as the slightly better model by comparing the performance of thier classification reports and confusion matrices. 
-The best performing model was saved for use in the streamlit application.
-
-## Model deployment
-Streamlit Application user interface![](IMAGES/streamlitapp.jpg)
+Graph showing 2020 airline carrier delay![](IMAGES/Delay_2020.jpg)
+### key points from the graph above
+- SkyWest Airlines (OO) had the most carrier delay of about 40 minutes in month 2 and American Airlines (AA) had a delay of about 25 minutes in month 3
+- Alaska Airlines (AS)  generally had no delays reported whereas Southwest Airlines (WN) had a carrier delay of
+about 10 minutes 
+- American Airlines (AA) experienced a  maximum weather delays of about 30 minutes.
+- Delays due to security for reporting airline have been negligible.
+- United Airlines (UA) has the most average late aircraft delay time of about 65 minutes in month 1 and reduced to 0 in month 2
+- American Airlines (AA) had the most  average late aircraft delay time of about 70 minutes in month 2 and it reduced to 0 in month 3
 
 ## Conclussion
+- The top 3 airlines on average that have been so competitive in the period of 2005 to 2020 with highest number of flights to destination states have been American Airlines (AA), Southwest Airlines (WN), and  Delta Air Lines (DL)
+- The top 5 states on average that have had the highest number of flights originating from there in 2005 to 2020 are 
+  Texas, California,Georgia,Florida and Illinois
+- Airlines are affected by different delays.
+- There was a drastic decrease in both state destination flights and number of flights from various origins by state and this is attributed to the fact that 2020 was the year when airline businesses were greatly affected by covid-19 and a number of flights were cancelled.
 
-1. The clusters generated give us some useful information about our customer base such as their average income,
-   age,debt to income ratio, education and years employed. 
-2. We can use the statistics about these clusters to know where each customer belongs to.
-3. With this information, we can then be able to tailor our bank products such as savings, loans, mortgage
-   credit card to specific customers depending on the cluster they belong to for better performance of marketing     campaigns.
 
 
 
