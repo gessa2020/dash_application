@@ -158,8 +158,8 @@ about 10 minutes
 - The top 3 airlines on average that have been so competitive in the period of 2005 to 2020 with highest number of flights to destination states have been American Airlines (AA), Southwest Airlines (WN), and  Delta Air Lines (DL)
 - The top 5 states on average that have had the highest number of flights originating from there in 2005 to 2020 are 
   Texas, California,Georgia,Florida and Illinois
-- Airlines are affected by different delays.
-- There was a drastic decrease in both state destination flights and number of flights from various origins by state and this is attributed to the fact that 2020 was the year when airline businesses were greatly affected by covid-19 and a number of flights were cancelled.
+- Different Airlines are affected by different delays in different months in general.
+- There was a drastic decrease in both state destination flights and number of flights from various origins by state  in 2020 and this is attributed to the fact that 2020 was the year when airline businesses were greatly affected by covid-19 and a number of flights were cancelled.
 
 
 
