@@ -126,7 +126,7 @@ Graph showing 2019 flight performance![](IMAGES/Perf_2019.jpg)
 - The Top 3  airlines with the most number of flights  to destination states were Delta Air Lines (DL) with 50 flights to Georgia (GA),then followed Southwest Airlines (WN) with 39 flights to california and then American Airlines (AA) with 28 flights to Texas. 
 - 50% of the flights reported were from American Airlines (AA), Delta Air Lines (DL),SkyWest Airlines (OO) and Allegiant Air (G4) shared a percentage of 16.7% of reported flights
 - We can see that top 4 states that had the highest number of flights originating from there were California with 116 flights,followed by Texas with 96 flights,followed by Florida (FL) with 87 flights and then Illinois (IL)  which had 63 flights.
-- Flight Cancellation codes were spread out to about 2 flights on average.
+- Flight Cancellation codes were spread out to about 2 flights on average in every month.
 - We can see a general monthly flight time of airlines to be about 150 minutes on average across various months
 
 Graph showing 2019 airline carrier delay![](IMAGES/Delay_2019.jpg)
