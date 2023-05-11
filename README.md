@@ -1,37 +1,91 @@
-# Dash_application
-## A dash application to Monitor and report US domestic airline flights performance
+# Dash application
+## A dash application to monitor and report US domestic airline flights performance
 ![](IMAGES/front.jpeg)
 ## Introduction
-This is a dash application project to monitor and report US domestic flights performance for the period
-2005 to 2020. It's one of the projects that i did in the IBM Data Analyst Professional Certificate program.
-The Goal is to analyze the performance of the reporting airline to improve flight reliability thereby improving customer reliability.
-The Report has to key items as shown below:
--Yearly airline performance report 
--Yearly average flight delay statistics
+This is a dash application project to monitor and report US domestic flights performance for the year range between
+2005 to 2020 inclusive. It's one of the projects that i did in the IBM Data Analyst Professional Certificate program.
+The goal is to analyze the performance of the reporting airline to improve flight reliability thereby improving customer reliability.
+
+The Report has two key items as shown below:
+- Yearly airline performance report 
+- Yearly average flight delay statistics
 ![](IMAGES/Report_Design.jpg)
 
+The yearly airline performance component consists of the following for each chosen year:
+- A bar chat showing number of flights under different cancellation categories 
+- A line chat showing average flight time by reporting airline 
+- A pie chart showing percentage of diverted airport landings per reporting airline 
+- A choropleth map showing number of flights flying from each state 
+- A treemap showing number of flights flying to each state from each reporting airline
+
+The yearly average flight delay statistics component consists of the following for each chosen year:
+- Monthly average carrier delay by reporting airline
+- Monthly average weather delay by reporting airline 
+- Monthly average late aircraft delay by reporting airline for the given year.
+- Monthly average security delay by reporting airline for the given year.
+- Monthly average late aircraft delay by reporting airline for the given year.
+
 ##  Problem statement 
-__How can we segment our customer base to improve cross-selling opportunities?__
+- Which airlines have the highest number of flights to destination states?
+- Which  states have the highest number of flights  originating from there?
+- what is the average monthly flight time in minutes by most airlines?
+- what is the average carrier delay time in minutes for various airlines?
+- what are the common causes of carrier delays?
+- What is the average late aircraft delay time in minutes by airlines?
 
-<h3>Objective</h3> 
-To segment and analysis bank customers so as to understand the kind of clients a bank has which can then be used in developing profitable products that can generate more revenue to the bank. 
- 
-<h4>Workflow</h4>
-From the historical data, we will first train a machine learning clustering  model on customer profile variables to come up with target groups also known as clusters, there after, we will then train a classification model that can predict which cluster a customer belongs to so as to tailor specific products to the client depending on the charactistics of the cluster.
 
-## Skilled demonstrated.
-- Python was used for coding the project together with some data science algorithms as seen in the notebook
-- I used jupyter notebooks as the main IDE for coding
-- I used Visual Studio to develop and deploy the streamlit application
+## Skilles demonstrated.
+- Python was used for coding the project together with some appropriate python libraries
+- I used Visual Studio to develop the application and launch it in the web browser.
 
 ## Data sourcing
-I just wanted to get my hands dirty with customer segmentation, so i went to kaggle.com and and got my hands on to this  <a href="https://www.kaggle.com/datasets/sidharth178/customer-segmentation">Dataset</a> so as to practice my skills. 
- The sample Dataset summarizes the usage behavior of about nearly 1000 active credit card holders during the last 6 months. The file is at a customer level with 10 behavioral variables.
- These include:'Customer Id', 'Age', 'Edu', 'Years Employed', 'Income', 'Card Debt','Other Debt', 'Defaulted', 'DebtIncomeRatio'
+The dataset used in this project was provided by the skills network labs. To access it click  <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv">HERE</a>  
+The sample Dataset contains information about US domestic airlines.It includes information about the airlines and the 
+states where these airlines conduct business together with other relevant information used in this project.
+The airlines include:
+| AIRLINE           | AIRLINE_CODE |  AIRLINE          | AIRLINE_CODE                   |
+| ----------------- | -------      | ----------------- | -------------------------------|
+| Alaska Airlines   | (AS)         | Frontier Airlines  | (F9)                          |
+| Allegiant Air     | (G4)         | Hawaiian Airlines  | (HA)                          |
+| American Airlines | (AA)         | JetBlue Airways    | (B6)                          |
+| Delta Air Lines   | (DL)         | Southwest Airlines | (WN)                          |
+| Sun Country Airlines| (SY)       | United Airlines    | (UA)                         |
+| ViaAir            | (VC)         | Virgin America     | (VX)                          |
+| Endeavor Air      | (9E)         | Envoy Air          | (MQ)                         |
+| ExpressJet        | (EV)         | GoJet Airlines     | (G7)                          |
+| Mesa Airlines     | (YV)         | Piedmont Airlines  | (PT)                         |
+| PSA Airlines      | (OH)         | Republic Airways   | (YX)                         |
+| SkyWest Airlines  | (OO)         | Southwest Airlines | (WN)                          |
 
-## Data transformation and cleaning.
-1.  I had to first drop the 'unnamed 0' column since it was not meaningful for our project.
-3.  There was some missing data in the defaulted variable, so i filled it in with the median for that column.
+The US states together with thier abbreviations used in the project are listed in the table below.
+| STATE             | ABBREVIATION |  STATE             | ABBREVIATION               |
+| ----------------- | -------      | -----------------  | ---------------------------|
+| Alabama           | (AL)         | Alaska             | (AK)                        |
+| Arizona           | (AZ)         | Arkansas           | (AR)                         |
+| California        | (CA)         | Colorado            | (CO)                         |
+| Connecticut       | (CT)         | Delaware           | (DE)                          |
+| Florida           | (FL)         | Georgia            | (GA)                         |
+| Hawaii            | (HI)         | Idaho              | (ID)                         |
+| Illinois          | (IL)         | Indiana            | (IN)                         |
+| Iowa              | (IA)          | Kansas            | (KS)                          |
+| Kentucky          | (KY)         | Louisiana          | (LA)                       |
+| Maine             | (ME)          | Massachusetts     | (MA)                        |
+| Maryland          | (MD)         | Michigan           | (MI)                          |
+| Minnesota         | (MN)         | Wyoming            | (WY)                          |
+| Wisconsin         | (WI)         | West Virginia      | (WV)                         |
+| Washington        | (WA)         | Virginia           | (VA)                           |
+| Vermont           | (VT)         | Utah                | (UT)                          |
+| Texas             | (TX)        | Tennessee            | (TN)                          |
+| South Dakota      | (SD)        | South CarolinaX      | South Carolina(SC)            |
+| Rhode Island      | (RI)         | Pennsylvania        | (PA)                          |
+| Oregon            | (OR)         | Oklahoma            | (OK)                          |
+| Ohio              | (OH)         | North Dakota        | (ND)                         |
+| North Carolina    | (NC)        | New York             | (NY)                          |
+| New Mexico        | (NM)         | New Jersey          | (NJ)                          |
+| New Hampshire     | (NH)         | New Hampshire       | (NH)                          |
+| Nevada            | (NV)          | Nebraska           | (NE)                          |
+| Montana           | (MT)          | Missouri           | (MO)                          |
+| Mississippi       | (MS)          |  Oklahoma          | (OK)                          |
 
 ## Data analysis and visualization
 Graph showing distribution of individual numerical variables![](IMAGES/Histogram_image1.png)
