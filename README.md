@@ -12,8 +12,8 @@ The Report has two key items as shown below:
 ![](IMAGES/Report_Design.jpg)
 
 The yearly airline performance component consists of the following for each chosen year:
-- A bar chat showing number of flights under different cancellation categories 
-- A line chat showing average flight time by reporting airline 
+- A bar chart showing number of flights under different cancellation categories 
+- A line chart showing average flight time by reporting airline 
 - A pie chart showing percentage of diverted airport landings per reporting airline 
 - A choropleth map showing number of flights flying from each state 
 - A treemap showing number of flights flying to each state from each reporting airline
