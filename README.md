@@ -34,9 +34,9 @@ The yearly average flight delay statistics component consists of the following f
 - What is the average late aircraft delay time in minutes by airlines?
 
 
-## Skilles demonstrated.
+## Skills demonstrated.
 - Python was used for coding the project together with some appropriate python libraries
-- I used Visual Studio to develop the application and launch it in the web browser.
+- I used Visual Studio code to develop the application and launch it in the web browser.
 
 ## Data sourcing
 The dataset used in this project was provided by the skills network labs. To access it click  <a href="https://cf-courses-data.s3.us.cloud-object-storage.appdomain.cloud/IBMDeveloperSkillsNetwork-DV0101EN-SkillsNetwork/Data%20Files/airline_data.csv">HERE</a>  
@@ -67,9 +67,9 @@ The US states together with thier abbreviations used in the project are listed i
 | Florida           | (FL)         | Georgia            | (GA)                         |
 | Hawaii            | (HI)         | Idaho              | (ID)                         |
 | Illinois          | (IL)         | Indiana            | (IN)                         |
-| Iowa              | (IA)          | Kansas            | (KS)                          |
-| Kentucky          | (KY)         | Louisiana          | (LA)                       |
-| Maine             | (ME)          | Massachusetts     | (MA)                        |
+| Iowa              | (IA)          | Kansas            | (KS)                         |
+| Kentucky          | (KY)         | Louisiana          | (LA)                         |
+| Maine             | (ME)          | Massachusetts     | (MA)                          |
 | Maryland          | (MD)         | Michigan           | (MI)                          |
 | Minnesota         | (MN)         | Wyoming            | (WY)                          |
 | Wisconsin         | (WI)         | West Virginia      | (WV)                         |
@@ -88,15 +88,40 @@ The US states together with thier abbreviations used in the project are listed i
 | Mississippi       | (MS)          |  Oklahoma          | (OK)                          |
 
 ## Data analysis and visualization
-Graph showing distribution of individual numerical variables![](IMAGES/Histogram_image1.png)
-### key takes ways from the plot above
-- The average age of clients is about 35 years with the age distribution being fairly skewed to the right
-- Income and Card Debt are highly skewed to the right
-- Debt income ratio and years employed have distributions that are skewed to the right.
-- The highest number of clients have education in category 1.0
+Graph showing 2005 flight performance![](IMAGES/Perf_2005.jpg)
+### key points from the graph above
+- The top three Airlines that had highest number of flights to destination states were; Southwest Airlines (WN) which had 34 flights heading to california, followed by  American Airlines (AA) with 33 flights heading to Texas and then Delta Air Lines (DL) with 26 flights whose destination was Georgia (GA).
+- Southwest Airlines (WN) had the highest percentage of flights reported of about 16.1%, followed by American Airlines (AA) with 9.64% of reported flights and then Envoy Air (MQ) with 9.05% of reported flights.
+- We realise that the top five states which had the highest number of flights originating from there were California with 117 flights,Texas with 108 flights, Florida with 77 flights, Illinois (IL) with 73 flights and Georgia (GA) with 60 states
+- Month 1 had the hightest number of monthly flights with cancellation codes, A and B whereas month 4 and 5 did not have any flights with any cancellation code reported
+- The top three airlines that had flights with the highest average monthly flight time are; JetBlue Airways (B6) with about 350 minutes of flight time followed by Hawaiian Airlines (HA) with a flight time of about 300 minutes and then Continental Airlines(CO) with flight time of about 250 minutes.
 
-Graph showing Generated Clusters![](IMAGES/cluster_image.png)
-## Cluster building
+Graph showing 2005 airline carrier delay![](IMAGES/Delay_2005.jpg)
+### key points from the graph above
+- SkyWest Airlines (OO) had the most average carrier delay of about 250 minutes in the seventh month
+ExpressJet (EV), American Airlines (AA) and Northwest Airlines (NW) are the major airlines that experienced weather delays in minutes in certain months of the year.
+- Alaska Airlines (AS) is the major airline that experienced a security delay in minutes reported of about close 50 minutes in month 6.
+- United Airlines (UA) experienced the most average late aircraft delay time of about 350 minutes in the third month 
+- Airtran Airways(FL) experienced the second most average late aircraft delay time of about 200 minutes in month 3
+- Average late aircraft delay by most airlines is about 50 minutes
+
+Graph showing 2010 flight performance![](IMAGES/Perf_2010.jpg)
+### key points from the graph above
+- The top four airlines which had the highest number of flights to destination states were American Airlines (AA) with about 35 flights to Texas, followed by SkyWest Airlines (OO) with about 26 flights to california(CA),
+then Southwest Airlines (WN) which had 25 flights to california and tied with Delta Air Lines (DL) which
+also had 25 flights to Georgia (GA).
+- We can see that top 5 states that had the highest number of flights originating from there inclluded Texas with 124 flights, followed by california with 96 flights followed by Georgia with 78 flights and Florida with 78 flights as well, followed by Illinois (IL) with 56 flights
+- It can also be noted that month 2 and 12 experienced the most number of flights with various cancellation codes
+
+Graph showing 2010 airline carrier delay![](IMAGES/Delay_2010.jpg)
+### key points from the graph above
+- Most average carrier delay time experienced by airlines were not more than 50 minutes on average.
+- Envoy Air (MQ),SkyWest Airlines (OO) and Delta Air Lines (DL) were the main airlines that experienced varying weather delays in minutes at different months
+- Envoy Air (MQ) and Continental Airlines(CO) are the airlines that majorly also experienced NAS delay time in minutes.
+- There were no flights that experienced dalays related to security matters that were reported.
+- Airlines such as Endeavor Air(9E),Southwest Airlines (WN) and American Airlines (AA) are the airlines whose flights experienced the most average aircraft delays, with Endeavor Air(9E) experiencing the highest delays of upto 120 minutes followed by Southwest Airlines (WN) and then American Airlines (AA) with least delays.
+
+### Cluster building
 To perform clustering, we had to preprocess the data using principle component analysis algorithm to produce two principle componets as our dimensions to be used in the clustering process.These were used to generate the clusters as seen in the image above. Further anlysis was performed to find the ideal number of clusters to be used in our data.We considered the ideal number of clusters to be used as 3 that can be seen in the graph above.
 
 Graph showing cluster analysis with data![](IMAGES/clusterstat.jpg)
